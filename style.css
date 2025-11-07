@@ -12,6 +12,7 @@
 
 body {
   margin: 0;
+
   font-family: "raleway", sans-serif;
 }
 
@@ -218,8 +219,8 @@ li {
 }
 
 .li-muted {
-margin-left: 6px;
-color: #4e4e4e;
+  margin-left: 6px;
+  color: #4e4e4e;
 }
 
 .space {
@@ -266,13 +267,12 @@ color: #4e4e4e;
 }
 
 .turkish-pasta-img {
-  background-image: url('./assets/img/turkish-pasta.jpg');
+  background-size: cover;
+  width: 100%;
+  max-width: 1400px;
   display: flex;
   justify-content: center;
   height: 300px;
-  background-size: cover;
-  background-position: center;
   border-radius: 12px;
   margin-left: 200px;
-  width: 1500px;
 }
