@@ -21,6 +21,7 @@ a {
   color: #403b3b;
   text-decoration: none;
 }
+
 a:hover {
   color: #008000;
   text-decoration: underline 4px;
@@ -38,6 +39,7 @@ nav {
   padding-inline-start: 0;
   font-size: 24px;
 }
+
 header {
   box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -45,6 +47,7 @@ header {
   padding-left: 200px;
   padding-right: 200px;
 }
+
 .section {
   padding-left: 200px;
   padding-right: 200px;
@@ -55,6 +58,7 @@ form {
   align-items: center;
   gap: 60px;
 }
+
 form p {
   background-color: #efefef;
   width: 150px;
@@ -66,10 +70,12 @@ form p {
   display: flex;
   gap: 10px;
 }
+
 p img {
   width: 15px;
   height: 15px;
 }
+
 h1 {
   display: flex;
   font-size: 32px;
@@ -84,6 +90,7 @@ h1 {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 .salad {
   background-image: url(./img/salad.jpg);
   height: 200px;
@@ -91,40 +98,48 @@ h1 {
   background-position: center;
   border-radius: 5px;
 }
+
 .grey {
   font-size: 32px;
 }
-.input{
+
+.input {
   width: 120px;
   height: 32px;
 }
-.portion{
-    width: 120px;
-    height: 42px;
+
+.portion {
+  width: 120px;
+  height: 42px;
 }
-.maxlist{
-    list-style-type: none;
+
+.maxlist {
+  list-style-type: none;
 }
-ul{
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-inline-start: 0; 
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
-.grey{
+
+.grey {
   background-color: #efefef;
-  width:auto;
+  width: auto;
   height: 48px;
   display: flex;
   align-items: center;
   font-size: 32px;
 }
-.space{
-  width:auto;
+
+.space {
+  width: auto;
   height: 48px;
   display: flex;
   align-items: center;
   font-size: 32px;
 }
+
 h2 {
   display: flex;
   font-size: 32px;
@@ -136,6 +151,7 @@ h2 {
   unicode-bidi: isolate;
   justify-content: baseline;
 }
+
 h3 {
   display: flex;
   font-size: 32px;
@@ -147,9 +163,11 @@ h3 {
   unicode-bidi: isolate;
   justify-content: baseline;
 }
-.MAX{
-  background-color:white;
+
+.MAX {
+  background-color: white;
 }
+
 .photo {
   width: 120px;
   height: 120px;
@@ -158,13 +176,35 @@ h3 {
   border-radius: 50px;
   grid-area: 200px;
 }
-.footer{
+
+.footer {
   background-color: #403b3b;
   height: 400px;
 }
 
 .rouladenpng {
   width: 100vh;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.marcellist {
+  list-style-position: inside;
+}
+
+.sectiontop {
+  display: flex;
+  justify-content: center;
+}
+
+.turkish-pasta-img {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px; 
 }
 
 .turkish-pasta-img {
