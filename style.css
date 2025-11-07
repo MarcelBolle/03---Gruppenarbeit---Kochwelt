@@ -1,7 +1,15 @@
-.mybody {
-  margin: 0;
-  font-family: raleway;
+@font-face {
+  font-family: "Raleway";
+  src: url("./assets/fonts/raleway.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
+
+body {
+  margin: 0;
+  font-family: "raleway", sans-serif;
+}
+
 a {
   color: #403b3b;
   text-decoration: none;
@@ -73,6 +81,6 @@ h1 {
   background-position: center;
   border-radius: 5px;
 }
-.grey{
+.grey {
   background-color: #efefef;
 }
