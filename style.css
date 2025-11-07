@@ -38,7 +38,7 @@ header {
   padding-left: 200px;
   padding-right: 200px;
 }
-.section {
+.main {
   padding-left: 200px;
   padding-right: 200px;
 }
@@ -47,6 +47,8 @@ form {
   display: flex;
   align-items: center;
   gap: 60px;
+  padding-top: 32px;
+  padding-bottom: 72px;
 }
 form p {
   background-color: #efefef;
@@ -73,8 +75,10 @@ h1 {
   font-weight: bold;
   unicode-bidi: isolate;
   justify-content: baseline;
+  padding-top: 72px;
+  padding-bottom: 32px;
 }
-.salad {
+.schaschlik {
   background-image: url(./assets/img/shish-kebab-417994_1920.jpg);
   height: 200px;
   background-size: cover;
@@ -87,13 +91,15 @@ h1 {
 .input{
   width: 120px;
   height: 32px;
+  border-radius: 5px;
 }
 .portion{
     width: 120px;
     height: 42px;
 }
 li{
-    list-style-type: none;
+    list-style-type:decimal;
+    font-size: 32px;
 }
 ul{
     margin-block-start: 0;
@@ -106,7 +112,7 @@ ul{
   height: 48px;
   display: flex;
   align-items: center;
-  font-size: 32px;
+  
 }
 .space{
   width:auto;
@@ -137,8 +143,10 @@ h3 {
   unicode-bidi: isolate;
   justify-content: baseline;
 }
+
 .MAX{
   background-color:white;
+  font-size: 32px;
 }
 .photo {
   width: 120px;
