@@ -102,4 +102,9 @@ h3 {
   width: 120px;
   height: 120px;
 }
-
+footer{
+  background-color: #403b3b;
+  display: flex;
+  width: auto;
+  height: auto;
+}
