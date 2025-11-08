@@ -202,4 +202,22 @@ h3 {
   background-color: #403b3b;
   height: 400px;
 }
-
+.footer_contact{
+  background-color: #403b3b;
+  height: 200px;
+}
+.form_contact{
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.form3{
+  display: grid;
+  border:1px;
+  background-color: #dcdcdc;
+  border-radius: 25px;
+  padding: 100px;
+  margin: 200px;
+}
